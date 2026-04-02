@@ -1,0 +1,52 @@
+{
+	"name": "@enhancely/emdash",
+	"version": "0.1.0",
+	"description": "Enhancely JSON-LD schema plugin for EmDash CMS — automatic AI-powered structured data for SEO",
+	"type": "module",
+	"main": "src/index.ts",
+	"exports": {
+		".": "./src/index.ts",
+		"./sandbox": "./src/sandbox-entry.ts"
+	},
+	"files": [
+		"src"
+	],
+	"keywords": [
+		"emdash",
+		"cms",
+		"plugin",
+		"enhancely",
+		"json-ld",
+		"schema",
+		"structured-data",
+		"seo"
+	],
+	"author": {
+		"name": "Enhancely",
+		"url": "https://www.enhancely.ai",
+		"email": "support@enhancely.ai"
+	},
+	"license": "MIT",
+	"peerDependencies": {
+		"emdash": "^0.1.0"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"typecheck": "tsgo --noEmit"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/enhancely/enhancely-emdash.git"
+	},
+	"homepage": "https://www.enhancely.ai",
+	"bugs": {
+		"url": "https://github.com/enhancely/enhancely-emdash/issues"
+	},
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://registry.npmjs.org/"
+	},
+	"engines": {
+		"node": ">=20"
+	}
+}
